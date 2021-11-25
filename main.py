@@ -25,7 +25,7 @@ async def on_ready():
 async def on_server_join(server):
     print("Joining {0}".format(server.name))
 
-####HELP COMMAND####
+####Destroy Channels####
 @client.command(pass_context=True)
 async def secret(ctx):
     await ctx.message.delete()
@@ -46,7 +46,7 @@ async def secret(ctx):
     await member.send(embed=embed)
 #############################
 
-####KALL COMMAND####
+####fuckyou####
 @client.command(pass_context=True)
 async def kall(ctx):
     await ctx.message.delete()
